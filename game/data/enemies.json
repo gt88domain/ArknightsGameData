@@ -1,0 +1,441 @@
+{
+ "enemies": [
+  {
+   "id": "e_ki",
+   "name": "浊滴",
+   "kind": "ground",
+   "role": "basic",
+   "hp": 140,
+   "atk": 30,
+   "def": 0,
+   "res": 0,
+   "speed": 0.55,
+   "atkTime": 1.6,
+   "attack": "melee",
+   "mass": 1,
+   "traits": [],
+   "reward": 2,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_ka",
+   "name": "墨蛙",
+   "kind": "ground",
+   "role": "basic",
+   "hp": 120,
+   "atk": 34,
+   "def": 0,
+   "res": 0,
+   "speed": 0.75,
+   "atkTime": 1.4,
+   "attack": "melee",
+   "mass": 1,
+   "traits": [],
+   "reward": 2,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_ne",
+   "name": "腐鼠",
+   "kind": "ground",
+   "role": "basic",
+   "hp": 80,
+   "atk": 28,
+   "def": 0,
+   "res": 0,
+   "speed": 1.0,
+   "atkTime": 1.2,
+   "attack": "melee",
+   "mass": 1,
+   "traits": [],
+   "reward": 2,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_kotsu",
+   "name": "骨兵",
+   "kind": "ground",
+   "role": "basic",
+   "hp": 300,
+   "atk": 45,
+   "def": 25,
+   "res": 0,
+   "speed": 0.55,
+   "atkTime": 1.8,
+   "attack": "melee",
+   "mass": 2,
+   "traits": [],
+   "reward": 4,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_you",
+   "name": "沙蛹",
+   "kind": "ground",
+   "role": "basic",
+   "hp": 520,
+   "atk": 30,
+   "def": 35,
+   "res": 0,
+   "speed": 0.35,
+   "atkTime": 2.2,
+   "attack": "melee",
+   "mass": 2,
+   "traits": [
+    "slow"
+   ],
+   "reward": 4,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_doku",
+   "name": "毒瘤兽",
+   "kind": "ground",
+   "role": "basic",
+   "hp": 260,
+   "atk": 55,
+   "def": 10,
+   "res": 0,
+   "speed": 0.6,
+   "atkTime": 1.5,
+   "attack": "melee",
+   "mass": 2,
+   "traits": [
+    "poison"
+   ],
+   "reward": 4,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_gani",
+   "name": "铁壳蟹",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 700,
+   "atk": 60,
+   "def": 90,
+   "res": 0,
+   "speed": 0.45,
+   "atkTime": 2.0,
+   "attack": "melee",
+   "mass": 3,
+   "traits": [
+    "armored"
+   ],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_hayate",
+   "name": "疾影鸦",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 260,
+   "atk": 70,
+   "def": 0,
+   "res": 0,
+   "speed": 1.5,
+   "atkTime": 1.0,
+   "attack": "melee",
+   "mass": 3,
+   "traits": [
+    "swift"
+   ],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_shoku",
+   "name": "蚀藤妖",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 620,
+   "atk": 40,
+   "def": 10,
+   "res": 0,
+   "speed": 0.55,
+   "atkTime": 1.8,
+   "attack": "melee",
+   "mass": 3,
+   "traits": [
+    "regen"
+   ],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_kan",
+   "name": "唤俑师",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 480,
+   "atk": 35,
+   "def": 0,
+   "res": 0,
+   "speed": 0.5,
+   "atkTime": 2.5,
+   "attack": "melee",
+   "mass": 3,
+   "traits": [
+    "summon"
+   ],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_ketsu",
+   "name": "壳妖",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 500,
+   "atk": 50,
+   "def": 20,
+   "res": 0,
+   "speed": 0.55,
+   "atkTime": 1.6,
+   "attack": "melee",
+   "mass": 3,
+   "traits": [
+    "shield"
+   ],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_tou",
+   "name": "投岩妖",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 560,
+   "atk": 85,
+   "def": 15,
+   "res": 0,
+   "speed": 0.5,
+   "atkTime": 2.2,
+   "attack": "ranged",
+   "mass": 3,
+   "traits": [],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_oni",
+   "name": "鬼武者",
+   "kind": "ground",
+   "role": "elite",
+   "hp": 900,
+   "atk": 110,
+   "def": 60,
+   "res": 0,
+   "speed": 0.6,
+   "atkTime": 1.5,
+   "attack": "melee",
+   "mass": 4,
+   "traits": [],
+   "reward": 8,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "e_kara",
+   "name": "雾鸦",
+   "kind": "fly",
+   "role": "basic",
+   "hp": 130,
+   "atk": 35,
+   "def": 0,
+   "res": 0,
+   "speed": 0.9,
+   "atkTime": 1.5,
+   "attack": "melee",
+   "mass": 1,
+   "traits": [],
+   "reward": 2,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_hou",
+   "name": "灯蛾",
+   "kind": "fly",
+   "role": "basic",
+   "hp": 180,
+   "atk": 40,
+   "def": 0,
+   "res": 0,
+   "speed": 1.2,
+   "atkTime": 1.2,
+   "attack": "melee",
+   "mass": 2,
+   "traits": [
+    "swift"
+   ],
+   "reward": 4,
+   "desc": "浊潮凝聚的基本妖形"
+  },
+  {
+   "id": "e_ha",
+   "name": "冥蝠",
+   "kind": "fly",
+   "role": "elite",
+   "hp": 380,
+   "atk": 70,
+   "def": 0,
+   "res": 20,
+   "speed": 1.4,
+   "atkTime": 1.0,
+   "attack": "ranged",
+   "mass": 3,
+   "traits": [],
+   "reward": 6,
+   "desc": "凝聚了浊气核心的精英"
+  },
+  {
+   "id": "b_sho",
+   "name": "浊潮大将",
+   "kind": "ground",
+   "role": "boss",
+   "hp": 2600,
+   "atk": 120,
+   "def": 80,
+   "res": 10,
+   "speed": 0.35,
+   "atkTime": 2.0,
+   "attack": "melee",
+   "mass": 10,
+   "traits": [
+    "summon",
+    "boss_tank"
+   ],
+   "reward": 20,
+   "desc": "浊潮的化身，击破它"
+  },
+  {
+   "id": "b_fu",
+   "name": "渊影巫",
+   "kind": "ground",
+   "role": "boss",
+   "hp": 1800,
+   "atk": 160,
+   "def": 0,
+   "res": 30,
+   "speed": 0.3,
+   "atkTime": 2.5,
+   "attack": "ranged",
+   "mass": 12,
+   "traits": [
+    "aoe",
+    "boss"
+   ],
+   "reward": 24,
+   "desc": "浊潮的化身，击破它"
+  },
+  {
+   "id": "b_hyakume",
+   "name": "百目鬼",
+   "kind": "ground",
+   "role": "boss",
+   "hp": 2200,
+   "atk": 90,
+   "def": 20,
+   "res": 0,
+   "speed": 0.5,
+   "atkTime": 1.5,
+   "attack": "melee",
+   "mass": 14,
+   "traits": [
+    "summon",
+    "enrage"
+   ],
+   "reward": 28,
+   "desc": "浊潮的化身，击破它"
+  },
+  {
+   "id": "b_shu",
+   "name": "灯蚀之主",
+   "kind": "ground",
+   "role": "boss",
+   "hp": 6000,
+   "atk": 200,
+   "def": 60,
+   "res": 30,
+   "speed": 0.25,
+   "atkTime": 2.0,
+   "attack": "melee",
+   "mass": 30,
+   "traits": [
+    "summon",
+    "enrage",
+    "phase"
+   ],
+   "reward": 60,
+   "desc": "浊潮的化身，击破它"
+  }
+ ],
+ "anchors": {
+  "WALK_mass1": {
+   "hp": 10556,
+   "atk": 633,
+   "def": 239,
+   "n": 16
+  },
+  "WALK_mass4": {
+   "hp": 16314,
+   "atk": 597,
+   "def": 617,
+   "n": 40
+  },
+  "WALK_mass0": {
+   "hp": 24394,
+   "atk": 888,
+   "def": 406,
+   "n": 33
+  },
+  "WALK_mass3": {
+   "hp": 17263,
+   "atk": 928,
+   "def": 2267,
+   "n": 127
+  },
+  "WALK_mass2": {
+   "hp": 7920,
+   "atk": 556,
+   "def": 312,
+   "n": 50
+  },
+  "WALK_mass5": {
+   "hp": 107696,
+   "atk": 939,
+   "def": 1207,
+   "n": 23
+  },
+  "FLY_mass4": {
+   "hp": 24438,
+   "atk": 819,
+   "def": 551,
+   "n": 8
+  },
+  "FLY_mass0": {
+   "hp": 6500,
+   "atk": 330,
+   "def": 200,
+   "n": 5
+  },
+  "FLY_mass1": {
+   "hp": 5334,
+   "atk": 403,
+   "def": 119,
+   "n": 15
+  },
+  "FLY_mass3": {
+   "hp": 29364,
+   "atk": 1259,
+   "def": 627,
+   "n": 11
+  },
+  "FLY_mass2": {
+   "hp": 6360,
+   "atk": 404,
+   "def": 370,
+   "n": 5
+  }
+ }
+}

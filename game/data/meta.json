@@ -1,0 +1,315 @@
+{
+ "currency": "残焰",
+ "earnPerStage": {
+  "base": 6,
+  "perIndex": 2,
+  "hpBonus": [
+   [
+    0.8,
+    15
+   ],
+   [
+    0.5,
+    8
+   ]
+  ]
+ },
+ "unlocks": [
+  {
+   "id": "u_chant1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_chant2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": false
+  },
+  {
+   "id": "u_chant3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_chant4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_chant5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_chant6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  },
+  {
+   "id": "u_guard1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_guard2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": true
+  },
+  {
+   "id": "u_guard3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_guard4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_guard5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_guard6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  },
+  {
+   "id": "u_medic1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_medic2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": false
+  },
+  {
+   "id": "u_medic3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_medic4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_medic5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_medic6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  },
+  {
+   "id": "u_runner1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_runner2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": true
+  },
+  {
+   "id": "u_runner3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_runner4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_runner5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_runner6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  },
+  {
+   "id": "u_shooter1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_shooter2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": true
+  },
+  {
+   "id": "u_shooter3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_shooter4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_shooter5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_shooter6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  },
+  {
+   "id": "u_warrior1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_warrior2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": false
+  },
+  {
+   "id": "u_warrior3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_warrior4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_warrior5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_warrior6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  },
+  {
+   "id": "u_witch1",
+   "rarity": 1,
+   "cost": 0,
+   "unlocked": true
+  },
+  {
+   "id": "u_witch2",
+   "rarity": 2,
+   "cost": 25,
+   "unlocked": true
+  },
+  {
+   "id": "u_witch3",
+   "rarity": 3,
+   "cost": 60,
+   "unlocked": false
+  },
+  {
+   "id": "u_witch4",
+   "rarity": 4,
+   "cost": 140,
+   "unlocked": false
+  },
+  {
+   "id": "u_witch5",
+   "rarity": 5,
+   "cost": 300,
+   "unlocked": false
+  },
+  {
+   "id": "u_witch6",
+   "rarity": 6,
+   "cost": 600,
+   "unlocked": false
+  }
+ ],
+ "upgrades": [
+  {
+   "id": "up_wick",
+   "name": "灯芯加固",
+   "max": 5,
+   "costs": [
+    40,
+    80,
+    150,
+    260,
+    420
+   ],
+   "per": 8,
+   "desc": "每级：灯心最大生命+8（100→140）"
+  },
+  {
+   "id": "up_oil",
+   "name": "预热灯油",
+   "max": 5,
+   "costs": [
+    40,
+    80,
+    150,
+    260,
+    420
+   ],
+   "per": 40,
+   "desc": "每级：开局灯油+40（100→300）"
+  },
+  {
+   "id": "up_array",
+   "name": "灯阵扩展",
+   "max": 5,
+   "costs": [
+    40,
+    80,
+    150,
+    260,
+    420
+   ],
+   "per": 1,
+   "desc": "每级：部署上限+1（8→12）"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>百妖灯阵 · Lantern Array</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="cv"></canvas>
+
+  <!-- top HUD -->
+  <div id="hud" class="hidden">
+    <div class="hud-left">
+      <div class="hud-chip" id="hud-stage">夜巡 1/18</div>
+      <div class="hud-chip lamp-lvl" id="hud-lamp">灯焰 Lv.1</div>
+    </div>
+    <div class="hud-mid">
+      <div class="hp-wrap"><span class="hp-label">灯心</span>
+        <div class="bar hp-bar"><div class="bar-fill" id="hp-fill"></div></div>
+        <span class="hp-num" id="hp-num">100</span>
+      </div>
+      <div class="hp-wrap"><span class="hp-label">灯油</span>
+        <span class="oil-num" id="oil-num">100</span>
+      </div>
+    </div>
+    <div class="hud-right">
+      <div class="hud-chip" id="hud-cap">灯 0/8</div>
+      <div class="hud-chip" id="hud-wave">波 0/0</div>
+      <button class="btn tiny" id="btn-speed" title="速度 [1][2][3]">1×</button>
+      <button class="btn tiny" id="btn-pause" title="暂停 [空格]">❚❚</button>
+      <button class="btn tiny" id="btn-mute" title="音效 [M]">♪</button>
+    </div>
+  </div>
+
+  <!-- bottom card bar -->
+  <div id="dock" class="hidden">
+    <div id="tabs"></div>
+    <div id="cards"></div>
+  </div>
+
+  <!-- unit side panel -->
+  <div id="side" class="hidden"></div>
+
+  <!-- enemy tooltip -->
+  <div id="tip" class="hidden"></div>
+
+  <!-- modal layer -->
+  <div id="modal" class="hidden"></div>
+
+  <!-- title screen -->
+  <div id="title">
+    <div class="title-inner">
+      <div class="t-glow"></div>
+      <h1 class="t-name">百妖灯阵</h1>
+      <div class="t-sub">LANTERN ARRAY · 浊潮之夜，以百灯镇妖</div>
+      <div class="t-story">大灯破碎，浊潮自裂隙中涌出，要将人间灯火尽数熄灭。<br>
+        执灯人，布下你的百妖灯阵，守住灯心。</div>
+      <div class="t-menu">
+        <button class="btn big" id="m-start">出 阵</button>
+        <button class="btn" id="m-meta">百炼炉 · 元进度</button>
+        <button class="btn" id="m-codex">灯谱 · 图鉴</button>
+        <button class="btn" id="m-help">灯下指南</button>
+      </div>
+      <div class="t-foot">原创塔防 · 数据参考公开数据集结构 · 无任何原作名称/美术</div>
+    </div>
+  </div>
+
+  <!-- meta screen -->
+  <div id="meta" class="screen hidden">
+    <div class="screen-inner">
+      <h2>百炼炉</h2>
+      <div class="flame-line">残焰 <span id="meta-flame">0</span></div>
+      <h3>元强化</h3><div id="meta-upgs"></div>
+      <h3>灯灵解锁</h3><div id="meta-unlocks"></div>
+      <button class="btn" id="meta-back">返回</button>
+    </div>
+  </div>
+
+  <!-- codex -->
+  <div id="codex" class="screen hidden">
+    <div class="screen-inner">
+      <h2>灯谱</h2>
+      <div class="tabs-big" id="codex-tabs">
+        <button data-t="units" class="on">灯灵</button>
+        <button data-t="skills">技能</button>
+        <button data-t="enemies">浊妖</button>
+        <button data-t="relics">法器</button>
+      </div>
+      <div id="codex-body"></div>
+      <button class="btn" id="codex-back">返回</button>
+    </div>
+  </div>
+
+  <!-- help -->
+  <div id="help" class="screen hidden">
+    <div class="screen-inner">
+      <h2>灯下指南</h2>
+      <div class="help-body">
+        <p><b>目标</b>：守住「灯心」，撑过 18 段夜巡。浊妖沿灯道而来，抵达灯心将熄灭它。</p>
+        <p><b>部署</b>：点选底部灯灵卡 → 点格子部署。灯灵消耗「灯油」；灯油随时间恢复，疾风类攻击还会产油。</p>
+        <p><b>阻挡</b>：镇石/破阵/疾风可站在灯道上阻挡地面浊妖；阻挡数满后敌人会绕行。</p>
+        <p><b>索敌</b>：灯灵攻击「范围形状」内的敌人，优先最接近灯心者。仅远影/咒焰/回辉/祝言可攻击空中目标。</p>
+        <p><b>技能</b>：灯灵充能（随时间/攻击/受击/击杀）满了自动释放。被动技能常亮。</p>
+        <p><b>肉鸽</b>：每关结束在三件中法器里选一件；第 7、13 关遇到「聚焰」事件。灯焰升级会提高部署上限与法器选择数。</p>
+        <p><b>元进度</b>：夜巡回「残焰」，用于在百炼炉解锁新灯灵与永久强化（灯心/开局灯油/部署上限）。</p>
+        <p><b>按键</b>：空格=暂停，1/2/3=速度，R=撤收选中灯灵（返还80%），M=静音，Esc=取消。</p>
+      </div>
+      <button class="btn" id="help-back">返回</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/core.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/render.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

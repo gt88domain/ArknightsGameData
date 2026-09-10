@@ -1,0 +1,324 @@
+{
+ "relics": [
+  {
+   "id": "r1_oilpot",
+   "name": "素·油灯盏",
+   "rarity": 1,
+   "kind": "start_oil",
+   "params": 40,
+   "desc": "每关开局灯油+40"
+  },
+  {
+   "id": "r1_hpjar",
+   "name": "素·厚灯罩",
+   "rarity": 1,
+   "kind": "unit_hp_pct",
+   "params": 0.08,
+   "desc": "所有灯灵最大生命+8%"
+  },
+  {
+   "id": "r1_spwick",
+   "name": "素·快灯芯",
+   "rarity": 1,
+   "kind": "sp_regen_pct",
+   "params": 0.15,
+   "desc": "技能充能速度+15%"
+  },
+  {
+   "id": "r1_coinbag",
+   "name": "素·小钱袋",
+   "rarity": 1,
+   "kind": "kill_oil_flat",
+   "params": 2,
+   "desc": "击杀获得的灯油+2"
+  },
+  {
+   "id": "r1_whet",
+   "name": "素·磨石",
+   "rarity": 1,
+   "kind": "phys_dmg_pct",
+   "params": 0.06,
+   "desc": "物理伤害+6%"
+  },
+  {
+   "id": "r1_ink",
+   "name": "素·符墨",
+   "rarity": 1,
+   "kind": "magic_dmg_pct",
+   "params": 0.06,
+   "desc": "咒术伤害+6%"
+  },
+  {
+   "id": "r1_shoes",
+   "name": "素·草履",
+   "rarity": 1,
+   "kind": "atk_speed_pct",
+   "params": 0.06,
+   "desc": "全体攻速+6%"
+  },
+  {
+   "id": "r2_ped",
+   "name": "青·铁灯座",
+   "rarity": 2,
+   "kind": "unit_def_flat",
+   "params": 12,
+   "desc": "所有灯灵防御+12"
+  },
+  {
+   "id": "r2_dew",
+   "name": "青·回春露",
+   "rarity": 2,
+   "kind": "heal_wave_pct",
+   "params": 0.1,
+   "desc": "每波结束后全体灯灵回复10%最大生命"
+  },
+  {
+   "id": "r2_oilskin",
+   "name": "青·灯油囊",
+   "rarity": 2,
+   "kind": "oil_regen_pct",
+   "params": 0.25,
+   "desc": "灯油自然恢复+25%"
+  },
+  {
+   "id": "r2_nails",
+   "name": "青·破甲钉",
+   "rarity": 2,
+   "kind": "dmg_vs_elite",
+   "params": 0.15,
+   "desc": "对精英与首领伤害+15%"
+  },
+  {
+   "id": "r2_bell",
+   "name": "青·鸣钟",
+   "rarity": 2,
+   "kind": "deploy_slow",
+   "params": 0.4,
+   "desc": "部署灯灵时，范围内敌人减速40%持续2秒"
+  },
+  {
+   "id": "r2_weave",
+   "name": "青·织网",
+   "rarity": 2,
+   "kind": "block_plus",
+   "params": 1,
+   "desc": "镇石与破阵的阻挡数+1"
+  },
+  {
+   "id": "r2_coal",
+   "name": "青·煤炭",
+   "rarity": 2,
+   "kind": "unit_atk_pct",
+   "params": 0.08,
+   "desc": "全体攻击+8%"
+  },
+  {
+   "id": "r2_talis",
+   "name": "青·名绘",
+   "rarity": 2,
+   "kind": "unit_res_flat",
+   "params": 10,
+   "desc": "全体法术抗性+10"
+  },
+  {
+   "id": "r2_feather",
+   "name": "青·剪羽",
+   "rarity": 2,
+   "kind": "kill_sp_pct",
+   "params": 0.3,
+   "desc": "击杀时技能充能+30%"
+  },
+  {
+   "id": "r2_stone",
+   "name": "青·石灯",
+   "rarity": 2,
+   "kind": "base_hp_flat",
+   "params": 20,
+   "desc": "灯心最大生命+20"
+  },
+  {
+   "id": "r2_lamp",
+   "name": "青·夜明",
+   "rarity": 2,
+   "kind": "start_hp_pct",
+   "params": 0.2,
+   "desc": "每关开局灯心回复20%最大生命"
+  },
+  {
+   "id": "r2_air",
+   "name": "青·风铃",
+   "rarity": 2,
+   "kind": "dmg_vs_fly",
+   "params": 0.2,
+   "desc": "对空中目标伤害+20%"
+  },
+  {
+   "id": "r3_core",
+   "name": "绯·焰心",
+   "rarity": 3,
+   "kind": "all_dmg_pct",
+   "params": 0.18,
+   "desc": "全体伤害+18%"
+  },
+  {
+   "id": "r3_eternal",
+   "name": "绯·不灭",
+   "rarity": 3,
+   "kind": "low_hp_shield",
+   "params": 0.5,
+   "desc": "灯心低于30%时：全体灯灵受伤-50%持续10秒（每关一次）"
+  },
+  {
+   "id": "r3_thousand",
+   "name": "绯·千灯",
+   "rarity": 3,
+   "kind": "deploy_cap",
+   "params": 2,
+   "desc": "部署上限+2"
+  },
+  {
+   "id": "r3_bloodoil",
+   "name": "绯·血油",
+   "rarity": 3,
+   "kind": "wave_shield",
+   "params": 0.15,
+   "desc": "每波结束后灯灵获得15%最大生命护盾"
+  },
+  {
+   "id": "r3_thunder",
+   "name": "绯·天罚",
+   "rarity": 3,
+   "kind": "dmg_vs_boss",
+   "params": 0.3,
+   "desc": "对首领伤害+30%"
+  },
+  {
+   "id": "r3_soulbell",
+   "name": "绯·魂钟",
+   "rarity": 3,
+   "kind": "death_blast",
+   "params": 450,
+   "desc": "灯灵倒下时，对其所在灯道全体敌人造成450点咒术伤害"
+  },
+  {
+   "id": "r3_lampspirit",
+   "name": "绯·灯灵",
+   "rarity": 3,
+   "kind": "oil_cap_up",
+   "params": 100,
+   "desc": "灯油上限+100且恢复速度+40%"
+  },
+  {
+   "id": "r3_free",
+   "name": "绯·刻印",
+   "rarity": 3,
+   "kind": "first_free",
+   "params": 1,
+   "desc": "每关首次部署免费"
+  },
+  {
+   "id": "r3_mountain",
+   "name": "绯·山岳",
+   "rarity": 3,
+   "kind": "unit_hp_pct2",
+   "params": 0.15,
+   "desc": "所有灯灵最大生命+15%"
+  }
+ ],
+ "events": [
+  {
+   "id": "ev_forging",
+   "name": "聚焰·淬炼",
+   "kind": "unit_upgrade",
+   "desc": "选择一名灯灵：攻击+25%，最大生命+25%（每名灯灵仅限一次）"
+  },
+  {
+   "id": "ev_oil",
+   "name": "聚焰·灌油",
+   "kind": "next_stage_oil",
+   "params": 150,
+   "desc": "下一关开局灯油+150"
+  },
+  {
+   "id": "ev_repair",
+   "name": "聚焰·修复",
+   "kind": "heal_base",
+   "desc": "灯心生命完全恢复"
+  },
+  {
+   "id": "ev_reroll",
+   "name": "聚焰·重塑",
+   "kind": "relic_reroll",
+   "desc": "将最近获得的一件法器替换为新的随机法器"
+  }
+ ],
+ "lampLevels": [
+  {
+   "level": 1,
+   "exp": 0,
+   "bonus": "oil"
+  },
+  {
+   "level": 2,
+   "exp": 10,
+   "bonus": "oil"
+  },
+  {
+   "level": 3,
+   "exp": 24,
+   "bonus": "deploy_cap"
+  },
+  {
+   "level": 4,
+   "exp": 36,
+   "bonus": "relic_choice"
+  },
+  {
+   "level": 5,
+   "exp": 40,
+   "bonus": "oil"
+  },
+  {
+   "level": 6,
+   "exp": 55,
+   "bonus": "deploy_cap"
+  },
+  {
+   "level": 7,
+   "exp": 65,
+   "bonus": "oil"
+  },
+  {
+   "level": 8,
+   "exp": 70,
+   "bonus": "relic_choice"
+  },
+  {
+   "level": 9,
+   "exp": 75,
+   "bonus": "deploy_cap"
+  },
+  {
+   "level": 10,
+   "exp": 80,
+   "bonus": "oil"
+  }
+ ],
+ "reference": {
+  "relicCount": 190,
+  "buffCategories": {
+   "immediate_reward": 50,
+   "char_attribute_mul": 50,
+   "global_buff_normal": 24,
+   "char_attribute_add": 19,
+   "level_char_limit_add": 9,
+   "recruit_cost": 9,
+   "global_buff_stack_base_one": 9,
+   "global_buff_stack": 9,
+   "dynamic_update": 8,
+   "change_reward": 8,
+   "char_squad_attribute_mul": 6,
+   "enemy_attribute_mul": 5
+  }
+ }
+}

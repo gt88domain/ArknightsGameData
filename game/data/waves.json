@@ -1,0 +1,650 @@
+{
+ "laneTemplates": [
+  {
+   "id": "lt1",
+   "lanes": [
+    [
+     [
+      0,
+      3
+     ],
+     [
+      8,
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lt2",
+   "lanes": [
+    [
+     [
+      0,
+      2
+     ],
+     [
+      5,
+      2
+     ],
+     [
+      5,
+      4
+     ],
+     [
+      8,
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lt3",
+   "lanes": [
+    [
+     [
+      0,
+      2
+     ],
+     [
+      8,
+      2
+     ]
+    ],
+    [
+     [
+      0,
+      4
+     ],
+     [
+      8,
+      4
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lt4",
+   "lanes": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      8,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      4
+     ],
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ],
+     [
+      8,
+      2
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lt5",
+   "lanes": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      4,
+      1
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      8,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      3
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      2,
+      1
+     ],
+     [
+      5,
+      1
+     ],
+     [
+      5,
+      3
+     ],
+     [
+      8,
+      3
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lt6",
+   "lanes": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      8,
+      1
+     ]
+    ],
+    [
+     [
+      0,
+      3
+     ],
+     [
+      3,
+      3
+     ],
+     [
+      3,
+      5
+     ],
+     [
+      8,
+      5
+     ]
+    ],
+    [
+     [
+      0,
+      5
+     ],
+     [
+      8,
+      5
+     ]
+    ]
+   ]
+  }
+ ],
+ "curve": {
+  "stageCount": 18,
+  "budget": {
+   "a": 10,
+   "b": 5.5,
+   "c": 1.4,
+   "d": 1.25
+  },
+  "statMul": {
+   "a": 1.0,
+   "b": 0.14,
+   "c": 0.012
+  },
+  "eliteFrom": 4,
+  "eliteRate": 0.02,
+  "eliteMax": 0.28,
+  "bossStages": [
+   5,
+   10,
+   15,
+   18
+  ],
+  "bossPicks": [
+   "b_sho",
+   "b_fu",
+   "b_hyakume",
+   "b_shu"
+  ],
+  "lanesByStage": {
+   "1": "lt1",
+   "2": "lt1",
+   "3": "lt2",
+   "4": "lt2",
+   "5": "lt3",
+   "6": "lt3",
+   "7": "lt4",
+   "8": "lt4",
+   "9": "lt5",
+   "10": "lt4",
+   "11": "lt5",
+   "12": "lt5",
+   "13": "lt6",
+   "14": "lt6",
+   "15": "lt5",
+   "16": "lt6",
+   "17": "lt6",
+   "18": "lt6"
+  },
+  "wavesPerStage": "3 + floor(n/4)",
+  "referenceSummary": {
+   "sampled": 48,
+   "avgLanes": 3.25,
+   "avgWaves": 3.79,
+   "avgEnemies": 45.8,
+   "avgMass": 49.0,
+   "bossCadenceAvg": 1,
+   "profiles": [
+    {
+     "code": "s01",
+     "lanes": 1,
+     "waves": 5,
+     "enemies": 11,
+     "mass": 11,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 1.01,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s02",
+     "lanes": 2,
+     "waves": 4,
+     "enemies": 14,
+     "mass": 14,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 1.4,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s03",
+     "lanes": 1,
+     "waves": 4,
+     "enemies": 23,
+     "mass": 23,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 1.11,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s04",
+     "lanes": 1,
+     "waves": 5,
+     "enemies": 24,
+     "mass": 24,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 0.92,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s05",
+     "lanes": 1,
+     "waves": 3,
+     "enemies": 24,
+     "mass": 24,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 1.71,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s06",
+     "lanes": 2,
+     "waves": 3,
+     "enemies": 31,
+     "mass": 31,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 9.35,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s07",
+     "lanes": 2,
+     "waves": 1,
+     "enemies": 20,
+     "mass": 20,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.42,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s08",
+     "lanes": 3,
+     "waves": 1,
+     "enemies": 40,
+     "mass": 40,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 3.79,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s09",
+     "lanes": 2,
+     "waves": 1,
+     "enemies": 64,
+     "mass": 64,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 4.63,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s10",
+     "lanes": 2,
+     "waves": 4,
+     "enemies": 35,
+     "mass": 37,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.6,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s11",
+     "lanes": 3,
+     "waves": 3,
+     "enemies": 37,
+     "mass": 39,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.67,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.1"
+    },
+    {
+     "code": "s12",
+     "lanes": 2,
+     "waves": 3,
+     "enemies": 33,
+     "mass": 36,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 6.56,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.5"
+    },
+    {
+     "code": "s13",
+     "lanes": 3,
+     "waves": 3,
+     "enemies": 41,
+     "mass": 42,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.05,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.5"
+    },
+    {
+     "code": "s14",
+     "lanes": 2,
+     "waves": 6,
+     "enemies": 36,
+     "mass": 37,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.71,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.5"
+    },
+    {
+     "code": "s15",
+     "lanes": 3,
+     "waves": 11,
+     "enemies": 39,
+     "mass": 40,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.0,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.5"
+    },
+    {
+     "code": "s16",
+     "lanes": 4,
+     "waves": 8,
+     "enemies": 57,
+     "mass": 57,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 5.13,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.10"
+    },
+    {
+     "code": "s17",
+     "lanes": 2,
+     "waves": 4,
+     "enemies": 79,
+     "mass": 81,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 3.43,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.10"
+    },
+    {
+     "code": "s18",
+     "lanes": 3,
+     "waves": 5,
+     "enemies": 41,
+     "mass": 43,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 3.17,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.10"
+    },
+    {
+     "code": "s19",
+     "lanes": 3,
+     "waves": 7,
+     "enemies": 46,
+     "mass": 46,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.11,
+     "difficulty": "NORMAL",
+     "bossMark": true,
+     "danger": "LV.15"
+    },
+    {
+     "code": "s20",
+     "lanes": 3,
+     "waves": 2,
+     "enemies": 35,
+     "mass": 37,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 3.36,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.15"
+    },
+    {
+     "code": "s21",
+     "lanes": 2,
+     "waves": 2,
+     "enemies": 49,
+     "mass": 51,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 3.0,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.15"
+    },
+    {
+     "code": "s22",
+     "lanes": 3,
+     "waves": 4,
+     "enemies": 45,
+     "mass": 49,
+     "eliteRatio": 0.0,
+     "hasBoss": true,
+     "avgInterval": 10.62,
+     "difficulty": "NORMAL",
+     "bossMark": true,
+     "danger": "LV.20"
+    },
+    {
+     "code": "s23",
+     "lanes": 3,
+     "waves": 5,
+     "enemies": 30,
+     "mass": 35,
+     "eliteRatio": 0.0,
+     "hasBoss": true,
+     "avgInterval": 1.77,
+     "difficulty": "NORMAL",
+     "bossMark": true,
+     "danger": "LV.20"
+    },
+    {
+     "code": "s24",
+     "lanes": 2,
+     "waves": 3,
+     "enemies": 50,
+     "mass": 50,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 2.43,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.20"
+    },
+    {
+     "code": "s25",
+     "lanes": 3,
+     "waves": 3,
+     "enemies": 51,
+     "mass": 51,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 5.8,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.25"
+    },
+    {
+     "code": "s26",
+     "lanes": 2,
+     "waves": 5,
+     "enemies": 52,
+     "mass": 58,
+     "eliteRatio": 0.155,
+     "hasBoss": false,
+     "avgInterval": 7.79,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.30"
+    },
+    {
+     "code": "s27",
+     "lanes": 2,
+     "waves": 1,
+     "enemies": 26,
+     "mass": 26,
+     "eliteRatio": 0.038,
+     "hasBoss": false,
+     "avgInterval": 11.38,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.30"
+    },
+    {
+     "code": "s28",
+     "lanes": 7,
+     "waves": 6,
+     "enemies": 40,
+     "mass": 44,
+     "eliteRatio": 0.227,
+     "hasBoss": false,
+     "avgInterval": 1.09,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.35"
+    },
+    {
+     "code": "s29",
+     "lanes": 14,
+     "waves": 3,
+     "enemies": 54,
+     "mass": 62,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 20.06,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.35"
+    },
+    {
+     "code": "s30",
+     "lanes": 9,
+     "waves": 5,
+     "enemies": 58,
+     "mass": 63,
+     "eliteRatio": 0.0,
+     "hasBoss": false,
+     "avgInterval": 7.85,
+     "difficulty": "NORMAL",
+     "bossMark": false,
+     "danger": "LV.35"
+    }
+   ]
+  }
+ }
+}
