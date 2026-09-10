@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>异变竞速：循环棋盘 × 卡牌讨伐</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎲</text></svg>">
+</head>
+<body>
+<div id="bg-decor"></div>
+
+<!-- ============ 开局界面 ============ -->
+<div id="start-screen">
+  <div class="title-wrap">
+    <div class="game-title">异变竞速</div>
+    <div class="game-sub">循环棋盘 🎲 × 卡牌讨伐 🃏 —— 与 AI 竞速解决异变！</div>
+  </div>
+
+  <div class="versus">
+    <div class="char-card you">
+      <img src="assets/player.png" alt="星晓">
+      <div class="cc-name" style="color:#ff7ab8">星晓 <span class="youtag">YOU</span></div>
+      <div class="cc-title">罗德岛见习干员</div>
+      <div class="cc-desc">开朗的新人干员，为了证明自己参加了异变竞速。</div>
+    </div>
+    <div class="vs">VS</div>
+    <div class="char-card rival">
+      <img src="assets/rival.png" alt="夜阑">
+      <div class="cc-name" style="color:#4aa8ff">夜阑 <span class="aitag">AI</span></div>
+      <div class="cc-title">神秘的竞速对手</div>
+      <div class="cc-desc">沉默寡言的天才少年，行动快如夜风。</div>
+      <div id="ai-relic-box" class="ai-relic-box">选择难度后，将在此公开 AI 的开局补偿遗物</div>
+    </div>
+  </div>
+
+  <div class="setup-panel">
+    <div class="setup-row">
+      <span class="setup-label">🤖 AI 难度</span>
+      <div class="diff-btns">
+        <button class="btn diff" data-diff="easy">😊 简单<small>偶尔犯错·无补偿遗物</small></button>
+        <button class="btn diff selected" data-diff="standard">🙂 标准<small>稳定决策·公开低阶遗物补偿</small></button>
+        <button class="btn diff" data-diff="hard">😈 困难<small>激进精细·公开低阶遗物补偿</small></button>
+      </div>
+    </div>
+    <div id="diff-desc" class="diff-desc"></div>
+    <div class="setup-row">
+      <span class="setup-label">🌱 随机种子</span>
+      <input id="seed-input" maxlength="24" placeholder="留空则随机">
+      <button id="btn-random-seed" class="btn small">🎲 随机</button>
+    </div>
+    <div class="setup-row">
+      <label class="demo-label"><input type="checkbox" id="demo-check"> 🎬 双 AI 演示模式（双方都由 AI 自动进行，可观战）</label>
+    </div>
+    <button id="btn-start" class="btn primary big">🚀 开始竞速！</button>
+  </div>
+
+  <div class="rules-panel">
+    <h3>📜 竞速规则</h3>
+    <ul>
+      <li>🏁 <b>你先击败最终 Boss「异变核心·蚀」即获胜</b>；夜阑先击败则你失败。异变核心第 7 轮后成型可挑战（此前到访领取 30 金币调查经费）；落点或经过 Boss 门时都可停下挑战；第 7 轮起投骰前也可用📡核心信标直达（代替移动）。</li>
+      <li>💀 你的生命归零则失败；夜阑生命归零则<b>出局</b>，但你仍须击败最终 Boss 才算完成异变。</li>
+      <li>🔄 行动顺序：<b>奇数轮 你→夜阑→Boss，偶数轮 夜阑→你→Boss</b>，每轮双方各行动一次后 Boss 释放侵蚀脉动。</li>
+      <li>🎲 每回合：检查骰具 → 掷骰 → 岔路选方向 → 移动 → 处理落点 →（战斗）→ 结算 → 结束。</li>
+      <li>🃏 战斗是杀戮尖塔式卡牌战：4 能量/回合、抽 5 张，战后三选一拿牌，双方<b>同一套规则</b>；胜利后休整回复（普通+5/精英+10）；牌组缺防御时三选一必含防御牌（双方同规则）。</li>
+      <li>🏠 建筑可购买/升级收过路费；💤 医疗站可回血或升级卡牌；🛒 黑市可购物（经过也可进店）；🔥 经过起点有奖励（停留回15血）；💀 精英可挑战或花 20 金币绕行。</li>
+      <li>⚖️ <b>公平性</b>：双方地图/金币/建筑/卡牌/Boss 规则完全相同；AI 不能偷看未来随机数、未揭示奖励与你的牌组；标准以上 AI 的低阶遗物补偿在开局<b>公开</b>展示。</li>
+      <li>⏩ AI 回合可用「加速」「跳过」；AI 战斗快速结算，只显示摘要。</li>
+    </ul>
+  </div>
+  <div class="footer">粉丝自制小游戏 · 灵感来源《明日方舟》世界观 · 单文件 HTML5 · 种子决定一切随机</div>
+</div>
+
+<!-- ============ 游戏界面 ============ -->
+<div id="game-screen" class="hidden">
+  <div id="topbar">
+    <div class="tb-left">
+      <span id="round-info"></span>
+      <span id="order-info"></span>
+    </div>
+    <div class="tb-mid">
+      <div id="boss-chip"></div>
+      <div id="erosion"><div id="erosion-fill" class="fill"></div><span id="erosion-text"></span></div>
+    </div>
+    <div class="tb-right">
+      <span id="seed-info"></span>
+      <button id="btn-speed" class="btn small" title="切换 AI 回合速度">⏩ 加速:关</button>
+      <button id="btn-skip" class="btn small hidden" title="立即结算本次 AI 回合">⏭ 跳过AI回合</button>
+      <button id="btn-sound" class="btn small" title="声音开关">🔊</button>
+      <button id="btn-rules" class="btn small" title="规则与公平性">❓</button>
+      <button id="btn-restart" class="btn small" title="重新开始">🔄</button>
+    </div>
+  </div>
+  <div id="main">
+    <div id="board-wrap">
+      <svg id="edges" viewBox="0 0 960 700" preserveAspectRatio="xMidYMid meet"></svg>
+      <div id="tiles"></div>
+      <div id="dice-anim"></div>
+    </div>
+    <div id="side">
+      <div id="panel-player" class="panel"></div>
+      <div id="panel-ai" class="panel"></div>
+      <div id="panel-boss" class="panel boss"></div>
+      <div id="log-wrap"><div class="log-title">📜 冒险日志</div><div id="log"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 战斗界面 ============ -->
+<div id="combat-overlay" class="hidden"></div>
+<!-- ============ Modal & Toast ============ -->
+<div id="modal-root"></div>
+<div id="toast-root"></div>
+<div id="end-screen" class="hidden"></div>
+
+<script src="data.js"></script>
+<script src="engine.js"></script>
+<script src="ui.js"></script>
+<script src="flow.js"></script>
+<script src="combat.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
