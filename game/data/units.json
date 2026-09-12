@@ -1,0 +1,1506 @@
+{
+ "classes": {
+  "RUNNER": {
+   "name": "疾风",
+   "role": "轻量突进，攻击产出灯油"
+  },
+  "GUARD": {
+   "name": "镇石",
+   "role": "驻守灯道，阻挡浊妖"
+  },
+  "WARRIOR": {
+   "name": "破阵",
+   "role": "近身强攻，破甲反击"
+  },
+  "SHOOTER": {
+   "name": "远影",
+   "role": "远距单体，可击飞空"
+  },
+  "WITCH": {
+   "name": "咒焰",
+   "role": "咒术群伤，无视防御"
+  },
+  "MEDIC": {
+   "name": "回辉",
+   "role": "恢复友方灯灵"
+  },
+  "CHANT": {
+   "name": "祝言",
+   "role": "范围光环，强化友军"
+  }
+ },
+ "statCurve": {
+  "RUNNER": [
+   {
+    "tier": 1,
+    "hp": 510,
+    "atk": 104,
+    "def": 80,
+    "cost": 3,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 2,
+    "hp": 721,
+    "atk": 150,
+    "def": 134,
+    "cost": 5,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 3,
+    "hp": 757,
+    "atk": 175,
+    "def": 139,
+    "cost": 8,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 4,
+    "hp": 795,
+    "atk": 200,
+    "def": 146,
+    "cost": 11,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 5,
+    "hp": 835,
+    "atk": 222,
+    "def": 153,
+    "cost": 15,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 6,
+    "hp": 858,
+    "atk": 224,
+    "def": 161,
+    "cost": 19,
+    "atkTime": 1.25
+   }
+  ],
+  "GUARD": [
+   {
+    "tier": 1,
+    "hp": 921,
+    "atk": 158,
+    "def": 188,
+    "cost": 3,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 2,
+    "hp": 1219,
+    "atk": 180,
+    "def": 220,
+    "cost": 5,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 3,
+    "hp": 1280,
+    "atk": 179,
+    "def": 240,
+    "cost": 8,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 4,
+    "hp": 1259,
+    "atk": 216,
+    "def": 252,
+    "cost": 11,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 5,
+    "hp": 1338,
+    "atk": 276,
+    "def": 265,
+    "cost": 15,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 6,
+    "hp": 1487,
+    "atk": 292,
+    "def": 278,
+    "cost": 19,
+    "atkTime": 1.25
+   }
+  ],
+  "WARRIOR": [
+   {
+    "tier": 1,
+    "hp": 816,
+    "atk": 208,
+    "def": 75,
+    "cost": 3,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 2,
+    "hp": 976,
+    "atk": 256,
+    "def": 99,
+    "cost": 5,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 3,
+    "hp": 1135,
+    "atk": 304,
+    "def": 124,
+    "cost": 8,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 4,
+    "hp": 1228,
+    "atk": 301,
+    "def": 133,
+    "cost": 11,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 5,
+    "hp": 1210,
+    "atk": 321,
+    "def": 155,
+    "cost": 15,
+    "atkTime": 1.25
+   },
+   {
+    "tier": 6,
+    "hp": 1375,
+    "atk": 347,
+    "def": 166,
+    "cost": 19,
+    "atkTime": 1.25
+   }
+  ],
+  "SHOOTER": [
+   {
+    "tier": 1,
+    "hp": 405,
+    "atk": 178,
+    "def": 36,
+    "cost": 3,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 2,
+    "hp": 546,
+    "atk": 187,
+    "def": 46,
+    "cost": 5,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 3,
+    "hp": 574,
+    "atk": 202,
+    "def": 52,
+    "cost": 8,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 4,
+    "hp": 741,
+    "atk": 259,
+    "def": 57,
+    "cost": 11,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 5,
+    "hp": 774,
+    "atk": 334,
+    "def": 75,
+    "cost": 15,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 6,
+    "hp": 821,
+    "atk": 358,
+    "def": 80,
+    "cost": 19,
+    "atkTime": 1.6
+   }
+  ],
+  "WITCH": [
+   {
+    "tier": 1,
+    "hp": 393,
+    "atk": 182,
+    "def": 41,
+    "cost": 3,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 2,
+    "hp": 1016,
+    "atk": 270,
+    "def": 43,
+    "cost": 5,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 3,
+    "hp": 1067,
+    "atk": 271,
+    "def": 45,
+    "cost": 8,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 4,
+    "hp": 1120,
+    "atk": 290,
+    "def": 44,
+    "cost": 11,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 5,
+    "hp": 1176,
+    "atk": 320,
+    "def": 52,
+    "cost": 15,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 6,
+    "hp": 1235,
+    "atk": 364,
+    "def": 64,
+    "cost": 19,
+    "atkTime": 1.6
+   }
+  ],
+  "MEDIC": [
+   {
+    "tier": 1,
+    "hp": 261,
+    "atk": 42,
+    "def": 16,
+    "cost": 3,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 2,
+    "hp": 450,
+    "atk": 97,
+    "def": 38,
+    "cost": 5,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 3,
+    "hp": 640,
+    "atk": 151,
+    "def": 59,
+    "cost": 8,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 4,
+    "hp": 738,
+    "atk": 150,
+    "def": 62,
+    "cost": 11,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 5,
+    "hp": 822,
+    "atk": 159,
+    "def": 65,
+    "cost": 15,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 6,
+    "hp": 850,
+    "atk": 174,
+    "def": 70,
+    "cost": 19,
+    "atkTime": 1.6
+   }
+  ],
+  "CHANT": [
+   {
+    "tier": 1,
+    "hp": 282,
+    "atk": 107,
+    "def": 20,
+    "cost": 3,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 2,
+    "hp": 418,
+    "atk": 150,
+    "def": 32,
+    "cost": 5,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 3,
+    "hp": 553,
+    "atk": 192,
+    "def": 44,
+    "cost": 8,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 4,
+    "hp": 605,
+    "atk": 202,
+    "def": 70,
+    "cost": 11,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 5,
+    "hp": 647,
+    "atk": 208,
+    "def": 82,
+    "cost": 15,
+    "atkTime": 1.6
+   },
+   {
+    "tier": 6,
+    "hp": 660,
+    "atk": 208,
+    "def": 86,
+    "cost": 19,
+    "atkTime": 1.6
+   }
+  ]
+ },
+ "units": [
+  {
+   "id": "u_chant1",
+   "name": "小铃",
+   "title": "祝言",
+   "class": "CHANT",
+   "rarity": 1,
+   "hp": 282,
+   "atk": 107,
+   "def": 20,
+   "res": 0,
+   "cost": 3,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "范围光环，强化友军；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_chant_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_chant2",
+   "name": "诵词",
+   "title": "祝言",
+   "class": "CHANT",
+   "rarity": 2,
+   "hp": 417,
+   "atk": 149,
+   "def": 32,
+   "res": 0,
+   "cost": 5,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "范围光环，强化友军；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_chant_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_chant3",
+   "name": "梵钟",
+   "title": "祝言",
+   "class": "CHANT",
+   "rarity": 3,
+   "hp": 553,
+   "atk": 192,
+   "def": 44,
+   "res": 0,
+   "cost": 8,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "范围光环，强化友军；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_chant_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_chant_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_chant4",
+   "name": "祝句",
+   "title": "祝言",
+   "class": "CHANT",
+   "rarity": 4,
+   "hp": 604,
+   "atk": 201,
+   "def": 69,
+   "res": 0,
+   "cost": 11,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "范围光环，强化友军；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_chant_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_chant_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_chant5",
+   "name": "歌行",
+   "title": "祝言",
+   "class": "CHANT",
+   "rarity": 5,
+   "hp": 647,
+   "atk": 208,
+   "def": 81,
+   "res": 0,
+   "cost": 15,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "范围光环，强化友军；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_chant_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_chant_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_chant6",
+   "name": "太鼓",
+   "title": "祝言",
+   "class": "CHANT",
+   "rarity": 6,
+   "hp": 660,
+   "atk": 208,
+   "def": 85,
+   "res": 0,
+   "cost": 19,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "范围光环，强化友军；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_chant_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_chant_c",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_guard1",
+   "name": "石坊",
+   "title": "镇石",
+   "class": "GUARD",
+   "rarity": 1,
+   "hp": 921,
+   "atk": 158,
+   "def": 188,
+   "res": 0,
+   "cost": 3,
+   "block": 2,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "驻守灯道，阻挡浊妖",
+   "skills": [
+    {
+     "id": "sk_guard_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_guard2",
+   "name": "岩座",
+   "title": "镇石",
+   "class": "GUARD",
+   "rarity": 2,
+   "hp": 1219,
+   "atk": 180,
+   "def": 220,
+   "res": 0,
+   "cost": 5,
+   "block": 2,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "驻守灯道，阻挡浊妖",
+   "skills": [
+    {
+     "id": "sk_guard_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_guard3",
+   "name": "灯守翁",
+   "title": "镇石",
+   "class": "GUARD",
+   "rarity": 3,
+   "hp": 1279,
+   "atk": 179,
+   "def": 240,
+   "res": 0,
+   "cost": 8,
+   "block": 2,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "驻守灯道，阻挡浊妖",
+   "skills": [
+    {
+     "id": "sk_guard_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_guard_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_guard4",
+   "name": "铁塔",
+   "title": "镇石",
+   "class": "GUARD",
+   "rarity": 4,
+   "hp": 1258,
+   "atk": 216,
+   "def": 252,
+   "res": 0,
+   "cost": 11,
+   "block": 2,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "驻守灯道，阻挡浊妖",
+   "skills": [
+    {
+     "id": "sk_guard_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_guard_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_guard5",
+   "name": "玄岳",
+   "title": "镇石",
+   "class": "GUARD",
+   "rarity": 5,
+   "hp": 1338,
+   "atk": 276,
+   "def": 264,
+   "res": 0,
+   "cost": 15,
+   "block": 2,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "驻守灯道，阻挡浊妖",
+   "skills": [
+    {
+     "id": "sk_guard_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_guard_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_guard6",
+   "name": "不动",
+   "title": "镇石",
+   "class": "GUARD",
+   "rarity": 6,
+   "hp": 1487,
+   "atk": 292,
+   "def": 277,
+   "res": 0,
+   "cost": 19,
+   "block": 2,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "驻守灯道，阻挡浊妖",
+   "skills": [
+    {
+     "id": "sk_guard_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_guard_c",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_medic1",
+   "name": "白纸",
+   "title": "回辉",
+   "class": "MEDIC",
+   "rarity": 1,
+   "hp": 261,
+   "atk": 42,
+   "def": 16,
+   "res": 0,
+   "cost": 3,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s20",
+   "hitsAir": true,
+   "desc": "恢复友方灯灵；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_medic_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_medic2",
+   "name": "药露",
+   "title": "回辉",
+   "class": "MEDIC",
+   "rarity": 2,
+   "hp": 450,
+   "atk": 96,
+   "def": 37,
+   "res": 0,
+   "cost": 5,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s20",
+   "hitsAir": true,
+   "desc": "恢复友方灯灵；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_medic_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_medic3",
+   "name": "樱符",
+   "title": "回辉",
+   "class": "MEDIC",
+   "rarity": 3,
+   "hp": 639,
+   "atk": 151,
+   "def": 59,
+   "res": 0,
+   "cost": 8,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s20",
+   "hitsAir": true,
+   "desc": "恢复友方灯灵；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_medic_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_medic_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_medic4",
+   "name": "铃兰",
+   "title": "回辉",
+   "class": "MEDIC",
+   "rarity": 4,
+   "hp": 737,
+   "atk": 150,
+   "def": 62,
+   "res": 0,
+   "cost": 11,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s20",
+   "hitsAir": true,
+   "desc": "恢复友方灯灵；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_medic_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_medic_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_medic5",
+   "name": "净灯",
+   "title": "回辉",
+   "class": "MEDIC",
+   "rarity": 5,
+   "hp": 822,
+   "atk": 158,
+   "def": 65,
+   "res": 0,
+   "cost": 15,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s20",
+   "hitsAir": true,
+   "desc": "恢复友方灯灵；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_medic_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_medic_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_medic6",
+   "name": "大巫",
+   "title": "回辉",
+   "class": "MEDIC",
+   "rarity": 6,
+   "hp": 850,
+   "atk": 174,
+   "def": 69,
+   "res": 0,
+   "cost": 19,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s20",
+   "hitsAir": true,
+   "desc": "恢复友方灯灵；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_medic_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_medic_c",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_runner1",
+   "name": "灯蝉",
+   "title": "疾风",
+   "class": "RUNNER",
+   "rarity": 1,
+   "hp": 509,
+   "atk": 104,
+   "def": 79,
+   "res": 0,
+   "cost": 3,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "轻量突进，攻击产出灯油",
+   "skills": [
+    {
+     "id": "sk_runner_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_runner2",
+   "name": "纸鹤",
+   "title": "疾风",
+   "class": "RUNNER",
+   "rarity": 2,
+   "hp": 721,
+   "atk": 150,
+   "def": 134,
+   "res": 0,
+   "cost": 5,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "轻量突进，攻击产出灯油",
+   "skills": [
+    {
+     "id": "sk_runner_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_runner3",
+   "name": "风铃童",
+   "title": "疾风",
+   "class": "RUNNER",
+   "rarity": 3,
+   "hp": 757,
+   "atk": 175,
+   "def": 138,
+   "res": 0,
+   "cost": 8,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "轻量突进，攻击产出灯油",
+   "skills": [
+    {
+     "id": "sk_runner_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_runner_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_runner4",
+   "name": "迅萤",
+   "title": "疾风",
+   "class": "RUNNER",
+   "rarity": 4,
+   "hp": 794,
+   "atk": 199,
+   "def": 145,
+   "res": 0,
+   "cost": 11,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "轻量突进，攻击产出灯油",
+   "skills": [
+    {
+     "id": "sk_runner_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_runner_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_runner5",
+   "name": "铃驹",
+   "title": "疾风",
+   "class": "RUNNER",
+   "rarity": 5,
+   "hp": 834,
+   "atk": 222,
+   "def": 152,
+   "res": 0,
+   "cost": 15,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "轻量突进，攻击产出灯油",
+   "skills": [
+    {
+     "id": "sk_runner_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_runner_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_runner6",
+   "name": "千羽",
+   "title": "疾风",
+   "class": "RUNNER",
+   "rarity": 6,
+   "hp": 857,
+   "atk": 224,
+   "def": 160,
+   "res": 0,
+   "cost": 19,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "轻量突进，攻击产出灯油",
+   "skills": [
+    {
+     "id": "sk_runner_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_runner_c",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_shooter1",
+   "name": "青羽",
+   "title": "远影",
+   "class": "SHOOTER",
+   "rarity": 1,
+   "hp": 405,
+   "atk": 178,
+   "def": 36,
+   "res": 0,
+   "cost": 3,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s23",
+   "hitsAir": true,
+   "desc": "远距单体，可击飞空；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_shooter_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_shooter2",
+   "name": "一矢",
+   "title": "远影",
+   "class": "SHOOTER",
+   "rarity": 2,
+   "hp": 546,
+   "atk": 187,
+   "def": 46,
+   "res": 0,
+   "cost": 5,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s23",
+   "hitsAir": true,
+   "desc": "远距单体，可击飞空；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_shooter_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_shooter3",
+   "name": "鸦影",
+   "title": "远影",
+   "class": "SHOOTER",
+   "rarity": 3,
+   "hp": 573,
+   "atk": 202,
+   "def": 51,
+   "res": 0,
+   "cost": 8,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s23",
+   "hitsAir": true,
+   "desc": "远距单体，可击飞空；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_shooter_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_shooter_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_shooter4",
+   "name": "风切",
+   "title": "远影",
+   "class": "SHOOTER",
+   "rarity": 4,
+   "hp": 740,
+   "atk": 259,
+   "def": 56,
+   "res": 0,
+   "cost": 11,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s23",
+   "hitsAir": true,
+   "desc": "远距单体，可击飞空；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_shooter_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_shooter_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_shooter5",
+   "name": "月翎",
+   "title": "远影",
+   "class": "SHOOTER",
+   "rarity": 5,
+   "hp": 774,
+   "atk": 334,
+   "def": 75,
+   "res": 0,
+   "cost": 15,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s23",
+   "hitsAir": true,
+   "desc": "远距单体，可击飞空；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_shooter_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_shooter_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_shooter6",
+   "name": "贯空",
+   "title": "远影",
+   "class": "SHOOTER",
+   "rarity": 6,
+   "hp": 821,
+   "atk": 358,
+   "def": 79,
+   "res": 0,
+   "cost": 19,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s23",
+   "hitsAir": true,
+   "desc": "远距单体，可击飞空；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_shooter_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_shooter_c",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_warrior1",
+   "name": "赤鬼",
+   "title": "破阵",
+   "class": "WARRIOR",
+   "rarity": 1,
+   "hp": 816,
+   "atk": 208,
+   "def": 75,
+   "res": 0,
+   "cost": 3,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "近身强攻，破甲反击",
+   "skills": [
+    {
+     "id": "sk_warrior_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_warrior2",
+   "name": "角刃",
+   "title": "破阵",
+   "class": "WARRIOR",
+   "rarity": 2,
+   "hp": 975,
+   "atk": 255,
+   "def": 99,
+   "res": 0,
+   "cost": 5,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "近身强攻，破甲反击",
+   "skills": [
+    {
+     "id": "sk_warrior_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_warrior3",
+   "name": "轰鼓",
+   "title": "破阵",
+   "class": "WARRIOR",
+   "rarity": 3,
+   "hp": 1134,
+   "atk": 303,
+   "def": 123,
+   "res": 0,
+   "cost": 8,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "近身强攻，破甲反击",
+   "skills": [
+    {
+     "id": "sk_warrior_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_warrior_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_warrior4",
+   "name": "牙狼",
+   "title": "破阵",
+   "class": "WARRIOR",
+   "rarity": 4,
+   "hp": 1227,
+   "atk": 300,
+   "def": 132,
+   "res": 0,
+   "cost": 11,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "近身强攻，破甲反击",
+   "skills": [
+    {
+     "id": "sk_warrior_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_warrior_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_warrior5",
+   "name": "狱炎",
+   "title": "破阵",
+   "class": "WARRIOR",
+   "rarity": 5,
+   "hp": 1210,
+   "atk": 320,
+   "def": 155,
+   "res": 0,
+   "cost": 15,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "近身强攻，破甲反击",
+   "skills": [
+    {
+     "id": "sk_warrior_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_warrior_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_warrior6",
+   "name": "天鼓",
+   "title": "破阵",
+   "class": "WARRIOR",
+   "rarity": 6,
+   "hp": 1374,
+   "atk": 347,
+   "def": 166,
+   "res": 0,
+   "cost": 19,
+   "block": 1,
+   "atkTime": 1.25,
+   "spRegen": 1.5,
+   "range": "plus4",
+   "hitsAir": false,
+   "desc": "近身强攻，破甲反击",
+   "skills": [
+    {
+     "id": "sk_warrior_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_warrior_c",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_witch1",
+   "name": "火玉",
+   "title": "咒焰",
+   "class": "WITCH",
+   "rarity": 1,
+   "hp": 393,
+   "atk": 182,
+   "def": 41,
+   "res": 0,
+   "cost": 3,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "咒术群伤，无视防御；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_witch_a",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_witch2",
+   "name": "绯狐",
+   "title": "咒焰",
+   "class": "WITCH",
+   "rarity": 2,
+   "hp": 1016,
+   "atk": 270,
+   "def": 43,
+   "res": 0,
+   "cost": 5,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "咒术群伤，无视防御；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_witch_a",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_witch3",
+   "name": "三尾",
+   "title": "咒焰",
+   "class": "WITCH",
+   "rarity": 3,
+   "hp": 1066,
+   "atk": 270,
+   "def": 45,
+   "res": 0,
+   "cost": 8,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "咒术群伤，无视防御；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_witch_a",
+     "tier": 2
+    },
+    {
+     "id": "sk_witch_b",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_witch4",
+   "name": "灼文",
+   "title": "咒焰",
+   "class": "WITCH",
+   "rarity": 4,
+   "hp": 1120,
+   "atk": 290,
+   "def": 44,
+   "res": 0,
+   "cost": 11,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "咒术群伤，无视防御；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_witch_a",
+     "tier": 3
+    },
+    {
+     "id": "sk_witch_b",
+     "tier": 1
+    }
+   ]
+  },
+  {
+   "id": "u_witch5",
+   "name": "咒蝶",
+   "title": "咒焰",
+   "class": "WITCH",
+   "rarity": 5,
+   "hp": 1176,
+   "atk": 319,
+   "def": 52,
+   "res": 0,
+   "cost": 15,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "咒术群伤，无视防御；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_witch_a",
+     "tier": 4
+    },
+    {
+     "id": "sk_witch_c",
+     "tier": 0
+    }
+   ]
+  },
+  {
+   "id": "u_witch6",
+   "name": "九焰",
+   "title": "咒焰",
+   "class": "WITCH",
+   "rarity": 6,
+   "hp": 1234,
+   "atk": 363,
+   "def": 64,
+   "res": 0,
+   "cost": 19,
+   "block": 0,
+   "atkTime": 1.6,
+   "spRegen": 1.5,
+   "range": "s15",
+   "hitsAir": true,
+   "desc": "咒术群伤，无视防御；可攻击空中目标",
+   "skills": [
+    {
+     "id": "sk_witch_a",
+     "tier": 5
+    },
+    {
+     "id": "sk_witch_c",
+     "tier": 1
+    }
+   ]
+  }
+ ]
+}
